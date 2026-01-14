@@ -1,0 +1,37 @@
+# Core Flask dependencies
+Flask==2.3.3
+Flask-CORS==4.0.0
+Werkzeug==2.3.7
+
+# Database (sqlite3 is built into Python)
+
+# Vector database and embeddings
+pinecone-client==3.0.0
+sentence-transformers==2.2.2
+
+# LangChain components for advanced RAG
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-openai==0.0.5
+langchain-huggingface==0.0.1
+langchain-pinecone==0.0.1
+
+# OpenAI
+openai==1.6.1
+
+# Document processing
+PyPDF2==3.0.1
+python-docx==0.8.11
+unstructured==0.11.8
+
+# Text processing
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Environment and utilities
+python-dotenv==1.0.0
+numpy==1.24.3
+pandas==2.0.3
+
+# Optional: For better HTML processing
+html5lib==1.1
